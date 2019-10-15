@@ -15,15 +15,7 @@ h1, p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.parallax1 {
-  background-image: url("assests/tesla-img.jpeg");
-}
-
-.parallax2 {
   background-image: url("assests/tesla-landscape.jpeg");
-  height: 500px;
 }
 
 .welcome {
@@ -40,8 +32,9 @@ h1, p {
 }
 
 .container {
-  margin: 40px;
+  margin: 50px auto;
   display: flex;
+  height: 300px;
 }
 
 .coupon {
@@ -76,4 +69,23 @@ h1, p {
 
 button:focus {
   outline:0;
+}
+
+.about {
+  float: right;
+}
+
+.about-me:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/*#bottom {
+  width: 800px;
+}*/
+
+a { 
+  color: inherit; 
+  text-decoration: none;
+  cursor: pointer;
 }
