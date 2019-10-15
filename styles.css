@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #808080;
+}
+.parallax{
+  display: flex;
+  opacity: .8;
+  height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+  background-image: url("assests/tesla-img.jpeg");
+}
+
+.parallax2 {
+  background-image: url("assests/tesla-landscape.jpeg");
+  height: 500px;
+}
+
+.welcome {
+  display: flex;
+  margin: auto;
+  width: 500px;
+  height: 100px;
+  font-size: 80px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  margin: 40px;
+  display: flex;
+}
+
+.coupon {
+  margin: 0 auto;
+  max-width: 500px;
+  border: 1.5px solid;
+  text-align: center;
+}
+.promo {
+  text-align: center;
+  border: 1px solid;
+  width: 100px;
+  border-style: dashed;
+}
