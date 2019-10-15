@@ -3,6 +3,10 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #808080;
 }
+
+h1, p {
+  margin: 10px;
+}
 .parallax{
   display: flex;
   opacity: .8;
@@ -47,8 +51,24 @@ body {
   text-align: center;
 }
 .promo {
+  color: #cc0023;
+  margin: 10px auto;
+  padding: 5px;
   text-align: center;
-  border: 1px solid;
+  border: 1px solid #cc0023;
   width: 100px;
   border-style: dashed;
+}
+
+.link {
+  margin: 10px;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #cc0023;
+  padding: 20px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
 }
